@@ -6,6 +6,8 @@ tensorflow==2.2.0
 cuda 10.1
 cudnn 7.6
 
+export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
+
 
 # Triplet loss in TensorFlow [![Build Status](https://travis-ci.org/omoindrot/tensorflow-triplet-loss.svg?branch=master)](https://travis-ci.org/omoindrot/tensorflow-triplet-loss)
 *Author: Olivier Moindrot*
