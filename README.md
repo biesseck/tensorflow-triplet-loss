@@ -1,3 +1,12 @@
+# BERNARDO
+conda env with python 3.8
+
+tensorflow==2.2.0
+
+cuda 10.1
+cudnn 7.6
+
+
 # Triplet loss in TensorFlow [![Build Status](https://travis-ci.org/omoindrot/tensorflow-triplet-loss.svg?branch=master)](https://travis-ci.org/omoindrot/tensorflow-triplet-loss)
 *Author: Olivier Moindrot*
 
