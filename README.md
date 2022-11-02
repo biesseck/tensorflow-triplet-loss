@@ -3,8 +3,7 @@ conda env with python 3.8
 
 tensorflow==2.2.0
 
-cuda 10.1
-cudnn 7.6
+cuda 10.1, cuDNN v7.6.5, gcc 7, g++ 7
 
 export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
 
@@ -12,10 +11,9 @@ ____________________________
 
 conda env with python 2.7
 
-tensorflow-gpu==1.6.0
+pip install numpy, pytest, tensorflow-gpu==1.6.0
 
-cuda 9.0
-cudnn ??
+cuda 9.0, cuDNN v7.0.5, gcc 5, g++ 5
 
 cuda 9.0 (patches):
 
