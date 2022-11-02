@@ -27,6 +27,7 @@ https://developer.nvidia.com/compute/cuda/9.0/Prod/patches/4/cuda_9.0.176.4_linu
 export CUDA_HOME_TMP="/usr/local/cuda-9.0" && conda env config vars set CUDA_HOME=$CUDA_HOME_TMP
 export LD_LIBRARY_PATH_TMP="$CUDA_HOME_TMP/lib64" && conda env config vars set LD_LIBRARY_PATH=$LD_LIBRARY_PATH_TMP
 export PATH_TMP="$CUDA_HOME_TMP:$CUDA_HOME_TMP/bin:$LD_LIBRARY_PATH_TMP:$PATH" && conda env config vars set PATH=$PATH_TMP
+export CUDA_CACHE_MAXSIZE_TMP=2147483648 && conda env config vars set CUDA_CACHE_MAXSIZE=$CUDA_CACHE_MAXSIZE_TMP
 conda deactivate
 conda activate <env_name>
 ```
