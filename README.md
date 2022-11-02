@@ -22,6 +22,14 @@ https://developer.nvidia.com/compute/cuda/9.0/Prod/patches/2/cuda_9.0.176.2_linu
 https://developer.nvidia.com/compute/cuda/9.0/Prod/patches/3/cuda_9.0.176.3_linux-run
 https://developer.nvidia.com/compute/cuda/9.0/Prod/patches/4/cuda_9.0.176.4_linux-run
 
+```
+# CONFIG ENV VARIABLES
+conda env config vars set CUDA_HOME="/usr/local/cuda-9.0"
+conda env config vars set LD_LIBRARY_PATH="$CUDA_HOME/lib64"
+conda env config vars set PATH="$CUDA_HOME:$CUDA_HOME/bin:$LD_LIBRARY_PATH:$PATH"
+conda deactivate
+conda activate <env_name>
+```
 ____________________________
 
 # Triplet loss in TensorFlow [![Build Status](https://travis-ci.org/omoindrot/tensorflow-triplet-loss.svg?branch=master)](https://travis-ci.org/omoindrot/tensorflow-triplet-loss)
