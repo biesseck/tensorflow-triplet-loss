@@ -8,6 +8,23 @@ cudnn 7.6
 
 export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
 
+____________________________
+
+conda env with python 2.7
+
+tensorflow-gpu==1.6.0
+
+cuda 9.0
+cudnn ??
+
+cuda 9.0 (patches):
+
+https://developer.nvidia.com/compute/cuda/9.0/Prod/patches/1/cuda_9.0.176.1_linux-run
+https://developer.nvidia.com/compute/cuda/9.0/Prod/patches/2/cuda_9.0.176.2_linux-run
+https://developer.nvidia.com/compute/cuda/9.0/Prod/patches/3/cuda_9.0.176.3_linux-run
+https://developer.nvidia.com/compute/cuda/9.0/Prod/patches/4/cuda_9.0.176.4_linux-run
+
+____________________________
 
 # Triplet loss in TensorFlow [![Build Status](https://travis-ci.org/omoindrot/tensorflow-triplet-loss.svg?branch=master)](https://travis-ci.org/omoindrot/tensorflow-triplet-loss)
 *Author: Olivier Moindrot*
